@@ -57,11 +57,11 @@ Body (raw -> JSON):
 }
 
 # 10  LOGIN STUDENT  (copy token -> this is the STUDENT token)
-POST http://localhost:3000/login
+POST http://localhost:3000/auth
 { "email": "student1@school.com", "password": "pass123" }
 
 # 10  LOGIN TEACHER  (copy token -> this is the TEACHER token)
-POST http://localhost:3000/login
+POST http://localhost:3000/auth
 { "email": "teacher1@school.com", "password": "pass123" }
 
 ----------------------------------------------------------------
